@@ -28,7 +28,7 @@ Sections of the table of contents can be adjusted or removed as needed. Make sur
 1.  [REPORT SUMMARY](#10-report-summary)
 2.  [BACKGROUND OF STUDY](#20-background-of-study)
     1.  [FOOTNOTES EXAMPLE](#21-footnotes-example)
-    2.  [SECTION TITLE](#22-section-title)
+    2.  [BULLETED OR NUMBERED LISTS](#22-bulleted-or-numbered-lists)
     3.  [SECTION TITLE](#23-section-title)
 3.  [MATERIALS AND METHODS](#30-materials-and-methods)
     1.  [SUPER- AND SUBSCRIPTS](#31-super\--and-subscripts)
@@ -71,7 +71,21 @@ If needed, footnotes (although they actually appear as end notes) can be include
     Add as many paragraphs as you like.
     
 
-### 2.2 Section Title
+### 2.2 Bulleted or numbered lists
+
+Both numbered or bulleted lists can be added. Bulleted lists can use either an asterisk or hyphen to begin the list. There needs to be a space between the * or - and the text for it to render as a list. A tab can be used to nest list items.
+
+* List item 1
+* List item 2
+    * Nested list item
+    
+Numbered lists work similarly, just with numbers instead of a symbol to initiate the list. Again, a tab can be used to nest list items. You can use 1 as the number for all items of a numbered list (see below), and it with render with the correct sequential numbers (1, 2, 3, etc.). This is helpful so re-numbering isn't required if elements of the list are deleted or re-ordered. You can also have both numbers and bullets in the same list.
+
+1. List item A
+1. List item B
+    1. Nested list item
+1. List item C
+    * Nested list item
 
 ### 2.3 Section Title
 

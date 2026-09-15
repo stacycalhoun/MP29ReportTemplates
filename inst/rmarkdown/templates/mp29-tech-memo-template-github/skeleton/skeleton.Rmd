@@ -31,7 +31,7 @@ Sections of the table of contents can be adjusted or removed as needed. Make sur
     2.  [BULLETED OR NUMBERED LISTS](#22-bulleted-or-numbered-lists)
     3.  [SECTION TITLE](#23-section-title)
 3.  [MATERIALS AND METHODS](#30-materials-and-methods)
-    1.  [SUPER- AND SUBSCRIPTS](#31-super\--and-subscripts)
+    1.  [SUPER- AND SUBSCRIPTS, EQUATIONS](#31-super\--and-subscripts-equations)
 4.  [RESULTS](#40-results)
     1.  [INCLUDING A TABLE](#41-including-a-table)
     2.  [ADDING A FIGURE](#42-adding-a-figure)
@@ -91,9 +91,14 @@ Numbered lists work similarly, just with numbers instead of a symbol to initiate
 
 ## 3.0 Materials and Methods
 
-### 3.1 Super- and subscripts
+### 3.1 Super- and subscripts, equations
 
 To add a superscript, add a ^ on either side of the text that needs to be superscripted such as X^2^. For a subscript, add ~ on either side of the relevant text like H~2~O.
+
+Equations can also be added by enclosing the equation block with two dollar signs on either side of the equation. Subscripts and exponents need to be bounded by curly brackets {} to keep all components together. Otherwise, only the first character or number will appear as the subscript or exponent and the rest will be regular formatting. Also, back slashes \\ are used along with functions such as frac for fraction to format the equation without the function text appearing in the equation itself. There are two good reference websites to help with equation formatting. The first is [Writing mathematical expressions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) on GitHub. The second is [LaTex/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) in WikiBooks. The LaTex/Mathematics resource has lists for Greek letters and syntax for different mathematical functions/operators such as limits, logarithms, binomials, roots, etc. Below is an example of an equation using Equation 6 from the Vegetation Morphology documentation. Note: not all of the functionality described in the LaTex/Mathematics resource is applicable to markdown such as some of the fonts, but most of the mathematical formatting appears to work.
+
+
+$$C_{1, i} = C_{0, i} + \left(\frac{L_{i}}{\sum_{i = 1}^n L_i}\right)A_{unoccupied}$$
 
 ## 4.0 Results
 

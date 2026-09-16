@@ -4,6 +4,20 @@ author: "First Author, Second Author, Third Author"
 output: github_document
 ---
 
+<style type="text/css">
+h1 { /* Header 1 */
+  color: #284D36;
+}
+h2 { /* Header 2 */
+  color: #284D36;
+}
+h3 { /* Header 3 */
+  color: #63AE7F;
+}
+</style>
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```

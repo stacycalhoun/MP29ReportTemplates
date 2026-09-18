@@ -1,5 +1,6 @@
 ---
-title: "\\textbf{\\textcolor{title}{Github Tech Memo Title}}"
+title: "\\vspace{4.5in}{\\textbf{\\textcolor{title}{Github Tech Memo Title}}}"
+subtitle: "Report Subtitle"
 author: "First Author, Second Author, Third Author" 
 output:
     pdf_document:
@@ -27,7 +28,7 @@ knitr::opts_chunk$set(echo = TRUE)
 The various sections of this template provide examples for certain types of formatting or inserting tables/figures. Remember to remove any template text that shouldn't be included in the report. Note: text following this <!-- are comments and do not show up in the final document rendering, only in the markdown code itself, but can be removed if preferred. If you want to see how the document output will look, click "Knit" from the script editor toolbar above. Also, if you have an Rstudio version v1.4 or v2022.02 and later, there is a Visual editor that you can use to see and adjust the formatting. The tab for the Visual editor is located below the script editor toolbar in the top left. 
 
 
-Sections below can be adjusted or removed as needed. The number of # indicates the level of heading. There needs to be a space between the last # and the heading text for the output to show a heading.
+Sections below can be adjusted or removed as needed. The number of # indicates the level of heading. There needs to be a space between the last # and the heading text for the output to show a heading. Headings will automatically be added to the table of contents.
 
 -->
 

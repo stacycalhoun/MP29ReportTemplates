@@ -1,0 +1,132 @@
+---
+title: "\\textbf{\\textcolor{title}{Github Tech Memo Title}}"
+author: "First Author, Second Author, Third Author" 
+output:
+    pdf_document:
+        latex_engine: xelatex
+mainfont: "Calibri"
+fontsize: 12pt
+header-includes:
+  - \usepackage{xcolor}
+  - \definecolor{title}{HTML}{284D36}
+  - \definecolor{headerhtml}{HTML}{284D36}
+  - \definecolor{subheader}{HTML}{63AE7F}
+  - \usepackage{sectsty}
+  - \sectionfont{\color{headerhtml}}
+  - \subsectionfont{\color{headerhtml}}     
+  - \subsubsectionfont{\color{subheader}}
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<!--
+
+The various sections of this template provide examples for certain types of formatting or inserting tables/figures. Remember to remove any template text that shouldn't be included in the report. Note: text following this <!-- are comments and do not show up in the final document rendering, only in the markdown code itself, but can be removed if preferred. If you want to see how the document output will look, click "Knit" from the script editor toolbar above. Also, if you have an Rstudio version v1.4 or v2022.02 and later, there is a Visual editor that you can use to see and adjust the formatting. The tab for the Visual editor is located below the script editor toolbar in the top left. 
+
+
+Sections below can be adjusted or removed as needed. The number of # indicates the level of heading. There needs to be a space between the last # and the heading text for the output to show a heading.
+
+-->
+
+
+
+\newpage
+
+\tableofcontents
+
+
+\pagebreak
+
+
+
+
+## 1.0 Report Summary
+
+Most text can simply be copied and pasted into the appropriate section. Blank lines of text should be used to separate paragraphs. Here are a few basic markdown syntax notes for reference. To italicize text, add an asterisk on either side of the relevant text *like this*. If text should be in bold, add two asterisks on either side of the relevant text **like this**. Text can be bold and italicized with three asterisks on either side of the text ***like this***.
+
+A good source for formatting and other markdown syntax is [Markdown Guide](https://www.markdownguide.org/). The previous line shows how to format a URL link that appears as text in the output. The link text should be inside square brackets and the URL follows immediately after inside parentheses. If you'd like to include the URL or an email address, it can be enclosed using < and > symbols like this <https://www.markdownguide.org/>, and will appear as a hyperlink in the output.  
+
+## 2.0 Background of Study
+
+### 2.1 Footnotes example
+
+If needed, footnotes (although they actually appear as end notes) can be included. The footnotes do link back up to the original text. Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+
+[^1]: This is the first footnote.
+
+[^bignote]: Here's one with multiple paragraphs.
+
+    Indent paragraphs to include them in the footnote.
+
+
+    Add as many paragraphs as you like.
+    
+
+### 2.2 Bulleted or numbered lists
+
+Both numbered or bulleted lists can be added. Bulleted lists can use either an asterisk or hyphen to begin the list. There needs to be a space between the * or - and the text for it to render as a list. A tab can be used to nest list items.
+
+* List item 1
+* List item 2
+    * Nested list item
+    
+Numbered lists work similarly, just with numbers instead of a symbol to initiate the list. Again, a tab can be used to nest list items. You can use 1 as the number for all items of a numbered list (see below), and it with render with the correct sequential numbers (1, 2, 3, etc.). This is helpful so re-numbering isn't required if elements of the list are deleted or re-ordered. You can also have both numbers and bullets in the same list.
+
+1. List item A
+1. List item B
+    1. Nested list item
+1. List item C
+    * Nested list item
+
+### 2.3 Section Title
+
+## 3.0 Materials and Methods
+
+### 3.1 Super- and subscripts, equations
+
+To add a superscript, add a ^ on either side of the text that needs to be superscripted such as X^2^. For a subscript, add ~ on either side of the relevant text like H~2~O.
+
+Equations can also be added by enclosing the equation block with two dollar signs on either side of the equation. Subscripts and exponents need to be bounded by curly brackets {} to keep all components together. Otherwise, only the first character or number will appear as the subscript or exponent and the rest will be regular formatting. Also, back slashes \\ are used along with functions such as frac for fraction to format the equation without the function text appearing in the equation itself. There are two good reference websites to help with equation formatting. The first is [Writing mathematical expressions](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions) on GitHub. The second is [LaTex/Mathematics](https://en.wikibooks.org/wiki/LaTeX/Mathematics) in WikiBooks. The LaTex/Mathematics resource has lists for Greek letters and syntax for different mathematical functions/operators such as limits, logarithms, binomials, roots, etc. Below is an example of an equation using Equation 6 from the Vegetation Morphology documentation. Note: not all of the functionality described in the LaTex/Mathematics resource is applicable to markdown such as some of the fonts, but most of the mathematical formatting appears to work.
+
+
+$$C_{1, i} = C_{0, i} + \left(\frac{L_{i}}{\sum_{i = 1}^n L_i}\right)A_{unoccupied}$$
+
+## 4.0 Results
+
+### 4.1 Including a table
+
+The following is an example of how to add a table to the report. If it's a small table, you can enter it manually using vertical pipes like this: | in the format below. However, most tables are longer than what makes sense to type in. There are websites that can convert an excel or word table into markdown format. One such site is [Table Generator](https://www.tablesgenerator.com/markdown_tables). You can use control + click to access the link from this template. You can copy/paste the needed table into the top portion of the site, click "Generate", and then it will render the table in markdown format. You can then copy/paste the markdown formatted table into the report. Also note the formatting for entering a table caption.
+
+<caption>Table 1. Example Table Caption</caption>
+
+| ECOREGION  |                       | 25th Percentile  | 50th Percentile  | 75th Percentile  | Number of CRMS sites  |
+|------------|-----------------------|------------------|------------------|------------------|-----------------------|
+| ATD        | Atchafalaya Delta     | -6.6             | -3.4             | -1.1             | 18                    |
+| BFD        | Bird’s Foot Delta     | -2.4             | 0.8              | 3.4              | 9                     |
+| CAL        | Calcasieu             | -6.5             | -3.6             | -1.0             | 8                     |
+| CHR        | Chenier Ridges        | -4.8             | -3.4             | -1.2             | 14                    |
+| CHS        | Chandeleur Sound      | -4.5             | -4.3             | -3.3             | 5                     |
+| ETB        | Eastern Terrebonne    | -5.2             | -4.1             | -0.5             | 17                    |
+
+
+### 4.2 Adding a figure
+
+In order to add a figure, you will need the file path or URL to the figure. The format for adding an image is below. Note, the alt text will show up under the image in the github document output. If not entering alt text, you can delete the text between the brackets, but do not delete the square brackets, otherwise the image won't render. The caption formatting is the same as for a table, just placed below the image as opposed to above it.
+
+
+![Alt text](subfolder_name/image-name.png)
+
+<caption>Figure 1. Example Figure Caption</caption>
+
+## 5.0 Discussion
+
+
+
+## 6.0 References
+
+References can be copied and pasted here.
+
+## Appendices

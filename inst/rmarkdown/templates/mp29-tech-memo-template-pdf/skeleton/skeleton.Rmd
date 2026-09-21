@@ -9,7 +9,7 @@ mainfont: "Calibri"
 fontsize: 12pt
 header-includes:
   - \usepackage{background}
-  - \backgroundsetup{placement=top, scale=1, color=black, opacity=0, angle=0, pages=1, contents={\includegraphics[height= 3.42in]{C:/Users/P00357462/Documents/MP29ReportTemplates/Report-title-page-background-image.png"}}}
+  - \backgroundsetup{placement=top, scale=1, color=black, opacity=0, angle=0, pages=1, contents={\includegraphics[height=3.42in]{`r system.file("rmarkdown/templates/Images/Report-title-page-background-image.png", package="MP29ReportTemplates")`}}}
   - \usepackage{xcolor}
   - \definecolor{title}{HTML}{284D36}
   - \definecolor{headerhtml}{HTML}{284D36}
@@ -18,7 +18,6 @@ header-includes:
   - \sectionfont{\color{headerhtml}}
   - \subsectionfont{\color{headerhtml}}     
   - \subsubsectionfont{\color{subheader}}
-  - \usepackage{background}
  
 ---
 

@@ -40,11 +40,11 @@ Sections of the table of contents can be adjusted or removed as needed. Make sur
 -->
 
 1.  [REPORT SUMMARY](#10-report-summary)
-2.  [BACKGROUND OF STUDY](#20-background-of-study)
+2.  [INTRODUCTION](#20-background-of-study)
     1.  [FOOTNOTES EXAMPLE](#21-footnotes-example)
     2.  [BULLETED OR NUMBERED LISTS](#22-bulleted-or-numbered-lists)
     3.  [SECTION TITLE](#23-section-title)
-3.  [MATERIALS AND METHODS](#30-materials-and-methods)
+3.  [METHODS](#30-materials-and-methods)
     1.  [SUPER- AND SUBSCRIPTS, EQUATIONS](#31-super\--and-subscripts-equations)
 4.  [RESULTS](#40-results)
     1.  [INCLUDING A TABLE](#41-including-a-table)
@@ -69,11 +69,11 @@ Most text can simply be copied and pasted into the appropriate section. Blank li
 
 A good source for formatting and other markdown syntax is [Markdown Guide](https://www.markdownguide.org/). The previous line shows how to format a URL link that appears as text in the output. The link text should be inside square brackets and the URL follows immediately after inside parentheses. If you'd like to include the URL or an email address, it can be enclosed using < and > symbols like this <https://www.markdownguide.org/>, and will appear as a hyperlink in the output.  
 
-## 2.0 Background of Study
+## 2.0 Introduction
 
 ### 2.1 Footnotes example
 
-If needed, footnotes (although they actually appear as end notes) can be included. The footnotes do link back up to the original text. Here's a simple footnote,[^1] and here's a longer one.[^bignote]
+If needed, footnotes (although they actually appear more as end notes in the html/github format) can be included. The footnotes do link back up to the original text. Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 [^1]: This is the first footnote.
 
@@ -103,7 +103,7 @@ Numbered lists work similarly, just with numbers instead of a symbol to initiate
 
 ### 2.3 Section Title
 
-## 3.0 Materials and Methods
+## 3.0 Methods
 
 ### 3.1 Super- and subscripts, equations
 

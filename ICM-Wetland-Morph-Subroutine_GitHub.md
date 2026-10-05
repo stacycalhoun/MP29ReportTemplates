@@ -619,6 +619,7 @@ for organic matter accumulation rates.</figcaption>
 </figure>
 
 
+
 Future improvements to ICM-Morph could allow for the OMAR quartile
 selection to be made by model ecoregion, allowing for greater spatial
 heterogeneity with how ICM-Morph models organic accretionary processes.
@@ -860,6 +861,7 @@ station (2010-2017), n = 1944. The blue line is the 99.5th quantile, and
 the grey line is the 0.05th quantile from a quantile regression
 analysis.</figcaption>
 </figure>
+
 
 
 If a given pixel is classified as non-flotant, non-forested wetland and

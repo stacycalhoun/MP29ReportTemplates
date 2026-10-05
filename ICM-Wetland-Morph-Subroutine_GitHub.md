@@ -834,7 +834,7 @@ Eq. 3
 > respectively.
 
 So as to have flexibility with defining the salinity-inundation depth
-threshold curve, the parameter values for $\beta_0$, $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, and Z~pct~
+threshold curve, the parameter values for $\beta_0$, $\beta_1$, $\beta_2$, $\beta_3$, $\beta_4$, and $Z_pct$
 are all provided as input variables (written by **ICM.py** into the
 input parameters control text file) read into the program during
 **preprocessing**. The values selected by Baustian et al. (2020),

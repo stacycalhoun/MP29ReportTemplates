@@ -849,11 +849,11 @@ relationships for the 2023 Coastal Master Plan
 
 | Variable        | Value for 2023 Coastal Master Plan |
 |-----------------|------------------------------------|
-| β0              | 0.0058                             |
-| β1              | -0.00207                           |
-| β2              | 0.0809                             |
-| β3              | 0.0892                             |
-| β4              | -0.19                              |
+| $\beta_0$              | 0.0058                             |
+| $\beta_1$              | -0.00207                           |
+| $\beta_2$              | 0.0809                             |
+| $\beta_3$              | 0.0892                             |
+| $\beta_4$              | -0.19                              |
 | Z<sub>pct</sub> | 2.57                               |
 
 <figure>
